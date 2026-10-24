@@ -669,19 +669,19 @@ _TZ_INDEX_DATA = (
 PLAN_LIMITS: Dict[str, Dict[str, Any]] = {
     "free":       {"name": "Free",       "max_bots": 2,   "ram": 128,  "auto_restart": False, "price": 0,    "days": 0},
     "starter":    {"name": "Starter",    "max_bots": 4,   "ram": 256,  "auto_restart": True,  "price": 99,   "days": 30},
-    "basic":      {"name": "Basic",      "max_bots": 6,  "ram": 512,  "auto_restart": True,  "price": 199,  "days": 30},
-    "pro":        {"name": "Pro",        "max_bots": 8,  "ram": 2048, "auto_restart": True,  "price": 499,  "days": 30},
+    "basic":      {"name": "Basic",      "max_bots": 6,   "ram": 512,  "auto_restart": True,  "price": 199,  "days": 30},
+    "pro":        {"name": "Pro",        "max_bots": 8,   "ram": 2048, "auto_restart": True,  "price": 499,  "days": 30},
     "enterprise": {"name": "Enterprise", "max_bots": 10,  "ram": 4096, "auto_restart": True,  "price": 999,  "days": 30},
-    "lifetime":   {"name": "Lifetime",   "max_bots": 15, "ram": 8192, "auto_restart": True,  "price": 1999, "days": 36500},
+    "lifetime":   {"name": "Lifetime",   "max_bots": 15,  "ram": 8192, "auto_restart": True,  "price": 1999, "days": 36500},
 }
 
 PAYMENT_METHODS: Dict[str, Dict[str, Any]] = {
-    "bkash":   {"name": "bKash",       "number": "01306633616",         "type": "Send Money",       "tag": "[B]"},
-    "nagad":   {"name": "Nagad",       "number": "01306633616",         "type": "Send Money",       "tag": "[N]"},
-    "rocket":  {"name": "Rocket",      "number": "01306633616",         "type": "Send Money",       "tag": "[R]"},
-    "upay":    {"name": "Upay",        "number": "01306633616",         "type": "Send Money",       "tag": "[U]"},
-    "binance": {"name": "Binance Pay", "number": "Binance ID 758637628","type": "USDT (BEP20/TRC20)","tag": "[BP]"},
-    "bank":    {"name": "Bank",        "number": "Contact admin",       "type": "Bank Transfer",    "tag": "[BK]"},
+    "bkash":   {"name": "bKash",       "upi_id": "Vickybanna8674@ybl", "type": "Send Money",       "tag": "[B]"},
+    "nagad":   {"name": "Nagad",       "upi_id": "Vickybanna8674@ybl", "type": "Send Money",       "tag": "[N]"},
+    "rocket":  {"name": "Rocket",      "upi_id": "Vickybanna8674@ybl", "type": "Send Money",       "tag": "[R]"},
+    "upay":    {"name": "Upay",        "upi_id": "Vickybanna8674@ybl", "type": "Send Money",       "tag": "[U]"},
+    "binance": {"name": "Binance Pay", "upi_id": "Vickybanna8674@ybl", "type": "USDT (BEP20/TRC20)","tag": "[BP]"},
+    "bank":    {"name": "Bank",        "upi_id": "Vickybanna8674@ybl", "type": "Bank Transfer",    "tag": "[BK]"},
 }
 
 SECRET_ENV_NAMES = {
